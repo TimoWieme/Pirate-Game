@@ -3,7 +3,7 @@ import { Bomb } from "./bomb.js"
 import { Pirate } from "./pirate.js"
 import { Pirateship } from "./pirateship.js"
 import { UI } from "./ui.js"
-import { gameObject } from "./gameObject.js"
+import { gameObject } from "./gameobject.js"
 import { Game } from "./game.js"
 import { Background } from "./background.js"
 
