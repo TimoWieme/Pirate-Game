@@ -30,8 +30,4 @@ export class UI {
         this._score++
         this.update()
     }
-
-    public clearScore() {
-        this.scoreField.remove()
-    }
 }

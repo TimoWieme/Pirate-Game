@@ -1,18 +1,13 @@
-import { gameObject } from "./gamebject.js"
+import { gameObject } from "./gameobject.js"
 import { Game } from "./game.js"
-import { Background } from "./background.js"
 
 export class StartScreen extends gameObject {
 
     private game : Game
-    private background: Background
-
     
     constructor(g:Game) {
         super("startscreen")
-        this.game = g
-        // this.background = new Background(this.div)
-        
+        this.game = g        
         const text = document.createElement("div")
         const instruction = document.createElement("div")
         const btn = document.createElement("button")

@@ -1,5 +1,4 @@
-import { collisionGameObject } from "./collisionGameObject.js"
-import { gameObject } from "./gamebject.js"
+import { gameObject } from "./gameobject.js"
 import { GameScreen } from "./gamescreen.js"
 
 export class Pirate extends gameObject{

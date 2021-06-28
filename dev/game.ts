@@ -1,5 +1,5 @@
 import { EndScreen } from "./end.js"
-import { gameObject } from "./gamebject.js"
+import { gameObject } from "./gameobject.js"
 import { GameScreen } from "./gamescreen.js"
 import { StartScreen } from "./start.js"
 

@@ -21,8 +21,5 @@ export class UI {
         this._score++;
         this.update();
     }
-    clearScore() {
-        this.scoreField.remove();
-    }
 }
 //# sourceMappingURL=ui.js.map

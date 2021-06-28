@@ -1,4 +1,4 @@
-import { gameObject } from "./gamebject.js";
+import { gameObject } from "./gameobject.js";
 export class EndScreen extends gameObject {
     constructor(g) {
         super("endscreen");

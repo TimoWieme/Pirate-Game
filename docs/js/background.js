@@ -1,4 +1,4 @@
-import { gameObject } from "./gamebject.js";
+import { gameObject } from "./gameobject.js";
 export class Background extends gameObject {
     constructor(tag) {
         super("background");

@@ -1,4 +1,4 @@
-import { gameObject } from "./gamebject.js";
+import { gameObject } from "./gameobject.js";
 export class Pirateship extends gameObject {
     constructor(x, y) {
         super("pirateShip");
