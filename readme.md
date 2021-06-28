@@ -1,3 +1,1 @@
-Link naar mijn Game:
-<br>
-<h href = "https://timowieme.github.io/Pirate-Game/"> Link naar mijn game </a>
+Link to my game: <a href "https://timowieme.github.io/Pirate-Game/"> Game <a>
