@@ -48,7 +48,7 @@ export class GameScreen extends gameObject {
         this.ui = new UI(g)
     }
 
-    private removePlayer() {
+    private removeElements() {
         if(this.gameOver == false){
         this.player.remove()
         this.remove()
@@ -75,7 +75,7 @@ export class GameScreen extends gameObject {
         this.pirate = this.pirate.filter(p => p != pirate)
         if (this.ui.score == 50) {
             console.log("The score is 50")
-            this.removePlayer()
+            this.removeElements()
         }
     }
 
@@ -138,7 +138,7 @@ export class GameScreen extends gameObject {
                 b.remove()
                 this.bomb = this.bomb.filter(bomb => bomb != b)
                 console.log("Hit bomb")
-                this.removePlayer()
+                this.removeElements()
             }
         }
     }
