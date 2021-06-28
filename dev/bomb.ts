@@ -1,4 +1,4 @@
-import { gameObject } from "./gameobject.js";
+import { gameObject } from "./gamebject.js";
 
 export class Bomb extends gameObject{
     constructor(tagName: string)  {

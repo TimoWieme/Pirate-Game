@@ -1,4 +1,4 @@
-import { gameObject } from "./gameobject.js"
+import { gameObject } from "./gamebject.js"
 import { Game } from "./game.js"
 import { Background } from "./background.js"
 

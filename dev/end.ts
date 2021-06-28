@@ -1,4 +1,4 @@
-import { gameObject } from "./gameobject.js"
+import { gameObject } from "./gamebject.js"
 import { Game } from "./game.js"
 
 export class EndScreen extends gameObject {
