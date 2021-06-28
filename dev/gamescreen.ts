@@ -48,7 +48,7 @@ export class GameScreen extends gameObject {
         this.ui = new UI(g)
     }
 
-    public removePlayer() {
+    private removePlayer() {
         if(this.gameOver == false){
         this.player.remove()
         this.remove()
@@ -69,7 +69,7 @@ export class GameScreen extends gameObject {
     }
     }
 
-    public removePirate(pirate: Pirate) {
+    private removePirate(pirate: Pirate) {
         pirate.remove()
         this.ui.addPoints()
         this.pirate = this.pirate.filter(p => p != pirate)
