@@ -8,7 +8,7 @@ import { Game } from "./game.js"
 import { Background } from "./background.js"
 
 export class GameScreen extends gameObject {
-    //Fields
+    //fields
     private player: Player
     private pirate: Pirate[] = []
     private bomb: Bomb[] = []
